@@ -1,0 +1,9 @@
+{
+  "$schema": "https://turborepo.org/schema.json",
+  "globalEnv": ["CI", "NODE_ENV"],
+  "pipeline": {
+    "tsc": {
+      "outputs": ["tsconfig.tsbuildinfo"]
+    }
+  }
+}

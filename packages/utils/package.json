@@ -1,0 +1,25 @@
+{
+  "name": "monorepo-ws-example-utils",
+  "version": "0.0.0",
+  "license": "UNLICENSED",
+  "sideEffects": [
+    "*.css"
+  ],
+  "source": "src/index.ts",
+  "type": "module",
+  "exports": {
+    "import": "./dist/esm/index.js",
+    "require": "./dist/cjs/index.js"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "tsc": "tsc"
+  },
+  "devDependencies": {
+    "monorepo-ws-example-tsconfig": "workspace:*",
+    "typescript": "4.9.5"
+  }
+}

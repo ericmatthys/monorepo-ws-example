@@ -1,0 +1,7 @@
+{
+  "extends": "monorepo-ws-example-tsconfig/tsconfig.base.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": "."
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "exclude": ["**/.*/", "**/node_modules"],
+  "compilerOptions": {
+    "allowJs": false,
+    "allowUnreachableCode": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "jsx": "react",
+    "lib": ["DOM", "ES2015", "ES2016"],
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "paths": {
+      "monorepo-ws-example-*": ["../*/src/index.ts"]
+    },
+    "noEmit": true,
+    "noErrorTruncation": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveSymlinks": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "ES2016"
+  }
+}
